@@ -1,0 +1,82 @@
+/* Created 02-07-2023 by stringzzz, Ghostwarez Co. */
+
+img {
+	max-width: 100%;
+}
+
+#banner {
+	margin-left: 10%;
+	margin-right: 10%;
+	margin-bottom: 5%;
+	width: 75.5%;
+}
+
+#bannerImage {
+	max-width: 100%;
+}
+
+.pagesList {
+	list-style-type: none;
+}
+
+ul.pagesList > li {
+	display: inline;
+	margin: 1%;
+	background-color: #8B3333;
+	border-style: solid;
+	border-width: 1%;
+	border-color: black;
+	width: 10%;
+}
+
+ul.pagesList > li:hover {
+	background-color: darkred;
+	border-color: red;
+}
+
+a {
+	color: black;
+	margin: 1%;
+}
+
+#pages {
+	margin-left: 10%;
+	margin-bottom: 5%;
+	background-color: #BB2222;
+	border-style: solid;
+	border-width: 2%;
+	border-color: darkred;
+	width: 75.5%;
+}
+
+#content, #navigation {
+	float: left;
+	background-color: red;
+	color: black;
+	border-style: solid;
+	border-width: 2%;
+	border-color: darkred;
+}
+
+#content {
+	margin-left: 10%;
+	margin-right: 15%;
+	width: 45%;
+}
+
+#navigation {
+	margin-right: 10%;
+	width: 15%;
+}
+
+h1, h2, h3 {
+	text-align: center;
+}
+
+p {
+	overflow-wrap: break-word;
+}
+
+body {
+	background-color: black;
+}
